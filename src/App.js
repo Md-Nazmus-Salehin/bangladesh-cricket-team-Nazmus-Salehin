@@ -32,7 +32,6 @@ function App() {
       <br/>
       <Cart cart={cart}></Cart>
       <br/>
-      
    
         {
           player.map(player => <Player player={player} handleAddClub={handleAddClub} key={player.id}></Player>)
