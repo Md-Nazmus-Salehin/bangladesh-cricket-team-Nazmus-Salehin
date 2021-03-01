@@ -8,8 +8,8 @@ const Player = (props) => {
     const handleAddClub = props.handleAddClub;
 
     return (
-        <div className="mx-2 d-inline-flex shadow-lg p-3 mb-5 bg-body rounded">
-            <div className="player text-center">
+        <div className="text-center d-inline-flex">
+            <div className="player mx-3 shadow-lg p-3 mb-5 bg-body rounded">
                 <h4>{name}</h4>
                 <img className="image" src={image} alt="" />
                 <p><small>shirt no: {shirt}</small></p>

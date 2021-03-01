@@ -10,7 +10,7 @@ const Cart = (props) => {
     
     return (
         <div>
-            <h6 className="text-center">total salary : {totalSalary}</h6>
+            <h6 className="text-center">Total Budget : {totalSalary}</h6>
         </div>
     );
 };
